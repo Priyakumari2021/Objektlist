@@ -1,0 +1,33 @@
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-user > .dropdown-toggle > .username, .page-header .page-header-top .top-menu .navbar-nav > li.dropdown-user > .dropdown-toggle > i {
+  color: $_BACKOFFICE_BLACK;
+}
+
+.navbar-nav > li > a {
+  color: $_BACKOFFICE_BLACK !important;
+}
+
+.navbar-nav > .open > a,
+.navbar-nav > .active > a  {
+  color: $_BACKOFFICE_BLUE !important;
+}
+
+.navbar-nav > li.active > a {
+  border-bottom: 3px solid $_BACKOFFICE_BLUE !important;
+}
+
+.page-container .page-head{
+  box-shadow: inset 0px 6px 5px -3px #C0C0C0;
+  -webkit-box-shadow: inset 0px 6px 5px -3px #C0C0C0;
+  -moz-box-shadow: inset 0px 6px 5px -3px #C0C0C0;
+}
+
+.navbar-nav > li > a:hover{
+  background-color:  transparent !important;
+  color: $_BACKOFFICE_PRIMARY !important;
+}
+
+.navbar-nav > li > a.dropdown-toggle:hover{
+  background-color:  transparent !important;
+  color: $_BACKOFFICE_GRAY_MENU !important;
+  font-weight: normal !important;
+}

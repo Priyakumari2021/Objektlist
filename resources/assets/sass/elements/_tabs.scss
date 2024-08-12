@@ -1,0 +1,39 @@
+// Tabbable
+
+.portlet.light > .portlet-title > .nav-tabs > li > a {
+  color: $_BACKOFFICE_BLACK;
+}
+
+.portlet > .portlet-title {
+  border-bottom-color: $_BACKOFFICE_LIGHT_GRAY;
+}
+
+.tabbable-line > .nav-tabs > li.active {
+  border-bottom-color: $_BACKOFFICE_PRIMARY;
+}
+
+.tabbable-line > .nav-tabs > li:hover {
+  border-bottom-color: $_BACKOFFICE_LIGHT_PRIMARY;
+}
+
+
+// Pills
+
+.nav-pills {
+  border-bottom: 1px solid $_BACKOFFICE_SILVER;
+}
+
+.nav-pills>li>a {
+  color: $_BACKOFFICE_BLACK;
+  font-size: $_BACKOFFICE_FONT_REGULAR;
+  font-weight: 500 !important;
+}
+
+.nav-pills>li>a:hover, .nav-pills>li>a:focus {
+  background-color: $_BACKOFFICE_LIGHT_PRIMARY;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  background-color: $_BACKOFFICE_LIGHT_PRIMARY;
+  color: $_BACKOFFICE_BLACK;
+}

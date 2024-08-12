@@ -1,0 +1,190 @@
+
+//General
+
+.container, .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300 !important;
+  line-height: 140%;
+  color: $_BACKOFFICE_BLACK;
+}
+
+a {
+  color: $_BACKOFFICE_BLUE;
+}
+
+h1, h2 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+h3, h4, h5 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+.page-content {
+  background: $_BACKOFFICE_BG;
+}
+
+.font-dark {
+  color: $_BACKOFFICE_BLACK !important;
+}
+
+.clearer, .clear {
+  clear: both;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.margin-right {
+  margin-right: 10px;
+}
+
+.margin-left {
+  margin-left: 10px;
+}
+
+//Portlets
+
+.portlet {
+  border: 1px solid $_BACKOFFICE_LIGHT_GRAY !important;
+  box-shadow: 0 2px 3px 2px $_BACKOFFICE_SHADOW !important;
+  -webkit-border-radius: $_BACKOFFICE_RADIUS;
+  -moz-border-radius: $_BACKOFFICE_RADIUS;
+  border-radius: $_BACKOFFICE_RADIUS;
+}
+
+.caption-subject {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: $_BACKOFFICE_FONT_BIG !important;
+  text-transform: none !important;
+}
+
+.note p, .page-loading, .panel .panel-body {
+  font-size: 14px;
+}
+
+.portlet.light > .portlet-title > .caption {
+  color: $_BACKOFFICE_BLACK;
+}
+
+.panel-default>.panel-heading:hover {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1), 0px 3px 4px rgba(0, 0, 0, 0.06), 0px 2px 4px rgba(0, 0, 0, 0.14) !important;;
+}
+
+.list-title {
+  margin-top: 14px;
+}
+
+// Custom Popover
+
+.popover {
+  border-radius: $_BACKOFFICE_RADIUS;
+}
+
+//Actions
+
+.actions a span {
+  border-radius: $_BACKOFFICE_RADIUS;
+  border: 1px solid $_BACKOFFICE_LIGHT_GRAY;
+  padding: 10px;
+
+}
+.actions a {
+  text-decoration: none !important;
+  color: $_BACKOFFICE_BLACK;
+  &:hover, &:focus{
+    color: $_BACKOFFICE_BLUE
+  }
+}
+
+.fg-menu-container.ui-widget.ui-widget-content.ui-corner-all {
+  border-radius: $_BACKOFFICE_RADIUS;
+  margin-top: 5px !important;
+  box-shadow: 1px 1px 1px $_BACKOFFICE_LIGHT_GRAY !important;
+}
+
+ul.fg-menu {
+  border-radius: $_BACKOFFICE_RADIUS;
+}
+
+.fg-menu a:link {
+  width: 120% !important;
+}
+
+.fg-menu a:hover {
+  background-color: $_BACKOFFICE_LIGHT_BLUE !important;
+  color: lightskyblue !important;
+
+}
+
+ul.fg-menu-content {
+  height: auto !important;
+}
+
+//Cookie message
+
+#cookie-banner {
+  max-width: 940px;
+  background: #EEEADD;
+  margin: 10px auto 0;
+  border-radius: $_BACKOFFICE_RADIUS;
+  -webkit-border-radius: $_BACKOFFICE_RADIUS;
+  -moz-border-radius: $_BACKOFFICE_RADIUS;
+}
+
+#cookie-banner p {
+  padding: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  color: #682008;
+  margin: 0;
+}
+
+#cookie-banner {
+  background-color: #faeaa9;
+  border-color: #f3cc31;
+  p {
+    color: #010407;
+    font-weight: normal;
+    a {
+      color: #010407;
+      text-decoration: underline;
+    }
+    a.cookie-banner__close {
+      text-decoration: none;
+      display: none;
+      span {
+        display: none;
+      }
+    }
+  }
+
+}
+
+/* round pic in sidebar */
+
+.round-pic {
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin: 0 auto;
+  -webkit-border-radius: 50%!important;
+  -moz-border-radius: 50%!important;
+  border-radius: 50%!important;
+}

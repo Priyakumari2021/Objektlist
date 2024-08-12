@@ -1,0 +1,69 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+//Base
+@import "base/colors", "base/fonts", "base/general";
+
+//Elements
+@import "elements/header", "elements/footer", "elements/menu", "elements/buttons", "elements/tabs", "elements/forms", "elements/tables", "elements/messages", "elements/maps", "elements/steps", "elements/pagination", "elements/wysihtml5";
+
+//Views
+@import "views/login", "views/dashboard", "views/estates", "views/profile", "views/products", "views/admin";
+
+//Devices
+@import "devices/desktop", "devices/tablets", "devices/phones";
+
+
+.wysiwyg {
+  & p {
+    @apply mt-6;
+  }
+  & strong {
+    @apply text-gray-900 font-bold;
+  }
+  & a {
+    @apply text-blue-500 font-semibold;
+  }
+  & strong a {
+    @apply font-bold;
+  }
+  & h1 {
+    @apply leading-tight text-2xl lg:text-4xl font-medium text-gray-900 mb-6 mt-8;
+  }
+  & h2 {
+    @apply leading-tight text-xl lg:text-2xl font-medium text-gray-900 mb-6 mt-8;
+  }
+  & h3 {
+    @apply leading-tight text-lg font-bold text-gray-900 mt-8 mb-6;
+  }
+  & code {
+    @apply font-mono text-sm inline px-1;
+  }
+  & pre code {
+    @apply block bg-black p-4 rounded;
+  }
+  & blockquote {
+    @apply relative p-6 shadow-md rounded-md my-8;
+    &::after{
+      @apply lg:block w-[calc(100%_-_48px)] lg:w-3 content-[''] h-[3px] lg:h-[calc(100%_-_48px)] absolute top-6 lg:top-1/2 left-1/2 lg:left-6 transform -translate-x-1/2 lg:-translate-x-0 lg:-translate-y-1/2 rounded-lg bg-blue-500;
+    }
+    p{
+      @apply pt-2 italic lg:pt-0 lg:pl-9 mt-0;
+    }
+  }
+  & ul {
+    @apply pl-5 mt-6 list-disc;
+    @screen sm {
+      @apply pl-10;
+    }
+  }
+
+  table{
+    @apply text-base mt-6 rounded-lg border-spacing-0 border-separate overflow-x-auto border-gray-100 border;
+    td{
+      @apply w-1/2 py-4 px-6 border-b border-gray-100;
+    }
+  }
+}

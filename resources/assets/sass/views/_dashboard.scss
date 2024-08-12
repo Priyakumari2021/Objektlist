@@ -1,0 +1,80 @@
+.estate-box {
+
+  cursor: pointer;
+
+  .last-thumb {
+    background: #FAFAFA;
+    height: 138px;
+    width: 184px;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .last-thumb img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  h3 {
+    margin-top: 0;
+    text-overflow: ellipsis;
+    width: 60%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+}
+
+.welcome {
+
+  .statistics {
+
+    margin-top: 20px;
+
+    p {
+      margin-top: 10px;
+
+      .stats-value {
+        font-size: 150%;
+      }
+    }
+
+    span {
+      display: block;
+    }
+
+    i.stats-icon {
+      font-size: 300%;
+    }
+
+    .stats-divider {
+      margin-top: 4px;
+    }
+
+  }
+
+  .estate-teaser-checkers {
+    padding: 0 20px 12px 20px;
+    li {
+      margin-top: 12px;
+    }
+  }
+
+}
+
+.dashboard-producer {
+  img {
+    height: 82px;
+    width: 82px;
+    margin-bottom: 10px;
+  }
+  a {
+    font-size: 12pt;
+    font-weight: bold;
+    color: inherit;
+    display: block;
+    margin-bottom: 15px;
+  }
+}

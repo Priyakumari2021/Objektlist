@@ -1,0 +1,142 @@
+
+.btn:not(.btn-circle) {
+  padding: 10px 30px;
+  font-size: $_BACKOFFICE_FONT_REGULAR;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #212121;
+  -o-border-radius: $_BACKOFFICE_RADIUS;
+  -webkit-border-radius: $_BACKOFFICE_RADIUS;
+  -moz-border-radius: $_BACKOFFICE_RADIUS;
+  border-radius: $_BACKOFFICE_RADIUS;
+
+  &.focus, &.active, &:active, &:focus {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1), 0px 3px 4px rgba(0, 0, 0, 0.06), 0px 2px 4px rgba(0, 0, 0, 0.14) !important;
+  }
+}
+
+.btn-lg {
+  font-size: $_BACKOFFICE_FONT_REGULAR !important;
+}
+
+.btn-high {
+  height: 56px;
+}
+
+/* Primary buttons */
+
+.btn.dark:not(.btn-outline) {
+
+  color: $_WHITE;
+  background: $_BACKOFFICE_PRIMARY;
+  border-color: transparent;
+
+  &:hover {
+    color: $_WHITE;
+    background: $_BACKOFFICE_PRIMARY;
+    border-color: transparent;
+  }
+
+  &.focus, &.active, &:active, &:focus {
+    color: $_WHITE !important;
+    background: $_BACKOFFICE_PRIMARY !important;
+    border-color: transparent !important;
+  }
+
+}
+
+.btn.dark:not(.btn-outline).hover {
+  background: $_BACKOFFICE_PRIMARY;
+}
+
+/* Secondary buttons */
+
+.btn.default:not(.btn-outline) {
+  color: $_BACKOFFICE_PRIMARY;
+  background-color: $_WHITE;
+  border-color: $_BACKOFFICE_PRIMARY;
+
+  &:hover {
+    color: $_WHITE;
+    background-color: $_BACKOFFICE_PRIMARY;
+    border-color: transparent;
+  }
+
+  &.focus, &.active, &:active, &:focus {
+    color: $_WHITE;
+    background-color: $_BACKOFFICE_PRIMARY;
+    border-color: transparent;
+  }
+
+}
+
+.btn.btn-outline.dark {
+  background: $_WHITE;
+}
+
+/* Round buttons */
+
+btn-circle.portlet>.portlet-title>.actions>.btn, .portlet>.portlet-title>.actions>.btn-group>.btn, .portlet>.portlet-title>.actions>.btn-group>.btn.btn-sm, .portlet>.portlet-title>.actions>.btn.btn-sm {
+    padding: 4px 9px;
+}
+
+/* RTE buttons */
+
+ul.wysihtml5-toolbar .btn-group .btn {
+  margin-left: 0px !important;
+}
+
+ul.wysihtml5-toolbar a.btn.default:not(.btn-outline) {
+  border-radius: 0px !important;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  color: $_BACKOFFICE_BLACK;
+  background-color: $_BACKOFFICE_SILVER;
+  font-weight: 500;
+  padding: 5px 20px;
+  border-color: transparent;
+}
+
+.btn-padding-top {
+  padding-top: 8px;
+
+}
+
+.panel-btn {
+  margin-top: 8px;
+}
+
+.bottom-buttons {
+  padding-bottom: 8px;
+}
+
+.info-btn {
+  cursor: default;
+}
+
+/* Help buttons */
+
+.btn-help {
+  padding: 6px 14px;
+}
+
+.btn-help-video {
+  margin-top: 11px;
+}
+
+/* Toolbar buttons */
+
+.page-toolbar {
+
+  .btn {
+    margin-right: 10px;
+    &:last-of-type {
+      margin-right: 0px;
+    }
+  }
+
+}

@@ -1,0 +1,57 @@
+
+.page-logo a img {
+  height: 30px;
+  margin-top: 16px;
+}
+
+.page-header {
+  height: auto;
+  box-shadow: 0 4px 2px -2px $_BACKOFFICE_SHADOW;
+}
+
+.page-head {
+  background: $_BACKOFFICE_SILVER;
+  .page-title > h1 {
+    font-family: "lato", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: $_BACKOFFICE_BLACK;
+    font-size: $_BACKOFFICE_FONT_LARGE;
+    margin: 0;
+  }
+}
+
+.dropdown-menu {
+  box-shadow: 0 2px 3px 2px $_BACKOFFICE_SHADOW !important;
+  -webkit-border-radius: $_BACKOFFICE_RADIUS;
+  -moz-border-radius: $_BACKOFFICE_RADIUS;
+  border-radius: $_BACKOFFICE_RADIUS;
+  -ms-border-radius: $_BACKOFFICE_RADIUS;
+  -o-border-radius: $_BACKOFFICE_RADIUS;
+}
+
+.dropdown-menu * {
+  text-align: center;
+}
+
+.dropdown-menu > li.active:hover > a,
+.dropdown-menu > li.active > a,
+.dropdown-menu > li:hover > a {
+  background-color: $_BACKOFFICE_LIGHT_BLUE;
+  color: $_BACKOFFICE_BLUE;
+}
+
+//round icon in header
+.img-circle {
+    display: inline-block;
+    margin-right: 8px;
+    float: left!important;
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    float: none;
+    -webkit-border-radius: 50%!important;
+    -moz-border-radius: 50%!important;
+    border-radius: 50%!important;
+}

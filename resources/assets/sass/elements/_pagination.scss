@@ -1,0 +1,31 @@
+
+.search-page .search-pagination {
+
+  .pagination>li>a {
+    background: transparent;
+    color: $_BACKOFFICE_BLACK;
+    font-size: $_BACKOFFICE_FONT_REGULAR!important;
+
+    &:hover {
+      background: $_BACKOFFICE_LIGHT_GRAY;
+      color: $_BACKOFFICE_BLACK;
+      font-weight: bold;
+    }
+  }
+
+  .pagination>.page-active>a {
+    background: #fff;
+    border: 1px solid $_BACKOFFICE_SILVER;
+    font-weight: bold;
+    color: $_BACKOFFICE_BLACK;
+  }
+
+  .pagination>li>a, .pagination>li>span {
+    padding: 6px 13px;
+  }
+
+  .pagination>.pagi-arrow>a, .pagination>.pagi-arrow>span {
+    padding: 6px 8px;
+  }
+
+}

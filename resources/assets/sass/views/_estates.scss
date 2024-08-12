@@ -1,0 +1,204 @@
+/* --------- Estate List --------- */
+
+.search-block {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.search-content-4 .search-table .table-title>h3 {
+  color: $_BACKOFFICE_BLACK;
+}
+
+/* --------- Estate Form --------- */
+
+#estatesform, .estate-address, .estate-contact {
+
+  #courtagetext {
+    height: 100px;
+  }
+
+  #zip-element #zip-error {
+    //it breaks the design
+    width: 0;
+    height: 0;
+    content: "";
+    visibility: hidden;
+    display: none!important;
+  }
+
+  .with-info-container {
+    input, select {
+      display: inline;
+      margin-right: 10px;
+      width: 87%;
+    }
+  }
+
+  #outercourtagetype, #innercourtagetype {
+    margin: 0 5px 0 5px;
+    width: 80px !important;
+  }
+
+  .hint {
+    font-size: 90%;
+  }
+
+  #city.input-medium, #street.input-medium, #contact_street.input-medium {
+    width: 70% !important;
+  }
+
+  #zip.input-xsmall, #number.input-xsmall, #contact_housenumber.input-xsmall {
+    width: 28% !important;
+  }
+
+  #city.input-medium, #number.input-xsmall, #contact_housenumber.input-xsmall {
+    margin-left: 2%;
+  }
+
+  .estateMoreFormElements,
+  .chooseContactPerson {
+    color: #333;
+  }
+
+  #featuresBoxContent {
+    .md-checkbox {
+      float: left;
+      width: 50%;
+    }
+    .form-group {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .removeField {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+  }
+
+  #latitude-element {
+    #latitudeLabel, #longitudeLabel {
+      height: 34px;
+      line-height: 34px;
+      margin-right: 10px;
+    }
+  }
+
+  #viewing_date {
+    margin-bottom: 15px;
+  }
+
+  #perambfromHo, #perambfromMi, #perambToHo, #perambToMi {
+    background: #fff;
+    height: 30px;
+  }
+
+  #viewing_from-error {
+    background: #fbe1e3;
+    color: #e73d4a;
+    padding: 12px;
+  }
+
+  //functional
+  #contact_public_visible-element,
+  #viewing_date-element, #viewing_time-element, #viewing-element {
+    display: none;
+  }
+
+}
+
+/* --------- Estate Media --------- */
+
+.image-canvas {
+  background: $_BACKOFFICE_LIGHT_GRAY;
+  height: 150px;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+}
+
+.subline-section {
+  display: block;
+  height: 40px;
+
+}
+
+.editable-click, a.editable-click, a.editable-click:hover {
+  color: $_BACKOFFICE_BLACK;
+  border-bottom-color: $_BACKOFFICE_GRAY !important;
+  line-height: 40px;
+}
+
+.image-subline {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  height: 40px;
+  overflow: hidden;
+  vertical-align: top;
+
+  .form-group {
+    width: 95%;
+  }
+
+  .editable-input {
+    width: 80%!important;
+    .form-control {
+      font-size: $_BACKOFFICE_FONT_SMALL;
+      height: 40px;
+      width: 100%;
+      padding-left: auto;
+      padding-right: auto!important;
+    }
+  }
+
+  .editable-buttons {
+    text-align: right;
+    width: 20% !important;
+  }
+
+}
+
+.image-subline-multiline {
+  margin-top: 10px;
+  border-bottom: dashed 1px #BFCAD1;
+  a {
+    display: inline-block;
+    vertical-align: top;
+    border: none !important;
+    color: inherit;
+    max-width: 90%;
+  }
+}
+
+.template-download {
+  .fa-check-circle {
+    font-size: 40px;
+    margin-top: 22px;
+    padding-left: 20px;
+  }
+}
+
+.payment-form {
+  p label {
+    font-weight: bold;
+    width: 80px;
+  }
+}
+
+#showaddress-element,
+#monument_protection-element,
+#showprices-element,
+#contact_default_contact-element {
+  .control-label {
+    line-height: normal;
+    padding-top: 0;
+  }
+}

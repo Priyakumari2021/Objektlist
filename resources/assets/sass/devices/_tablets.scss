@@ -1,0 +1,91 @@
+
+/* Tablets Landscape */
+
+@media only screen and (max-width: 1024px) {
+  .page-header .page-header-top .page-logo {
+    max-width: 150px !important;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .page-header .page-header-top .page-logo {
+    width: 215px !important;
+  }
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+
+  .note.note-info, .note.note-warning, .note.note-danger {
+    margin-top: 10px;
+  }
+
+  .alert.alert-danger, .alert.alert-success {
+    margin-top: 10px;
+  }
+  .top-menu .navbar-nav>li.dropdown{
+    display: none !important;
+  }
+
+
+  .page-header .page-header-menu .hor-menu .navbar-nav>li>a {
+      color: $_BACKOFFICE_GRAY_MENU !important;
+    &:hover{
+      text-decoration: underline !important;
+      color: $_BACKOFFICE_BLACK !important
+    }
+  }
+  .page-header .page-header-menu .hor-menu .navbar-nav>li.active>a{
+    color: $_BACKOFFICE_BLACK !important;
+    background-color: transparent !important;
+    &:hover{
+      color: $_BACKOFFICE_BLACK !important;
+      background: transparent !important;
+    }
+  }
+}
+
+/* Small Devices, Tablets portrait */
+
+@media only screen and (max-width: 768px) {
+
+  .register-data {
+    input {
+      width: 100%;
+    }
+    #register-firstname {
+      margin-left: auto;
+    }
+  }
+
+  .steps-progress {
+    display: none;
+  }
+
+  .profile-sidebar-portlet {
+    padding-top: 0px !important;
+  }
+
+  .profile-usermenu {
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+
+  .profile-userpic, .profile-usertitle {
+    display: none;
+  }
+
+  #estatesform {
+    #city.input-medium, #street.input-medium, #contact_street.input-medium {
+      width: 70% !important;
+    }
+  }
+
+  .note.note-info, .note.note-warning, .note.note-danger {
+    margin-top: 10px;
+  }
+
+  .alert.alert-danger, .alert.alert-success {
+    margin-top: 10px;
+  }
+}

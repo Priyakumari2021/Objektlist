@@ -1,0 +1,75 @@
+
+/* Extra Large Devices, Wide Screens */
+
+@media only screen and (min-width: 990px) {
+
+  #estatesform {
+
+    #city.input-medium, #street.input-medium, #contact_street.input-medium {
+      width: 67% !important;
+    }
+
+  }
+
+  .welcome {
+    .statistics {
+      margin-top: 54px;
+    }
+  }
+  .username-container{
+    display: inline-block;
+    float: right;
+    text-align: center;
+  }
+
+  .username-container > span{
+    float: left !important;
+
+  }
+  .dropdown.dropdown-user.dropdown-light{
+    border-left: 1px solid $_BACKOFFICE_SILVER;
+  }
+
+  .page-header .page-header-top .top-menu{
+    margin: 0px 0px 0px;
+  }
+  .nav.navbar-nav.pull-right{
+    height: 75px;
+  }
+
+  .nav.navbar-nav > li > a{
+    padding: 0px !important;
+    line-height: 72px;
+    margin-left:10px;
+    margin-right:10px;
+  }
+
+  .nav.navbar-nav .dropdown-user .dropdown-toggle{
+    line-height: normal !important;
+    padding-top: 20px !important;
+  }
+
+  .navbar-nav > li.active > a {
+    border-bottom: 3px solid $_BACKOFFICE_BLACK;
+  }
+
+  .nav.navbar-nav.pull-right > .dropdown-user{
+    height: 100% !important;
+  }
+  .username.username-hide-mobile.gray{
+    color: $_BACKOFFICE_GRAY !important;
+    font-size: $_BACKOFFICE_FONT_EXTRA_SMALL;
+
+  }
+  .page-header .page-header-top .top-menu .navbar-nav>li.dropdown{
+    padding: 0px 10px !important;
+  }
+
+
+}
+
+/* Large Devices */
+
+@media only screen and (max-width: 1200px) {
+
+}

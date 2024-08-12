@@ -1,0 +1,39 @@
+
+.steps-progress {
+
+  font-size: $_BACKOFFICE_FONT_REGULAR;
+  margin-left: 20px;
+
+  .step {
+    line-height: 46px;
+    background-image: url('/images/step-inactive.png');
+    background-repeat: no-repeat;
+    background-position: left 50%;
+
+    span {
+      margin-left: 10px;
+      margin-right: 20px;
+    }
+
+    &.active {
+      font-weight: 500;
+      background-image: url('/images/step-active.png');
+    }
+
+    &:first-child {
+      background-image: url('/images/step-inactive-first.png');
+      &.active {
+        background-image: url('/images/step-active-first.png');
+      }
+    }
+
+    &:last-child {
+      background-image: url('/images/step-inactive-last.png');
+      &.active {
+        background-image: url('/images/step-active-last.png');
+      }
+    }
+
+  }
+
+}

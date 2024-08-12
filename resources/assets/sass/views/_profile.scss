@@ -1,0 +1,112 @@
+/* --------- Profile Media --------- */
+
+.image-panel {
+  position: relative;
+
+  .image-panel-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+}
+
+/* --------- Profile --------- */
+
+.profile-usermenu {
+  margin-top: 0px;
+}
+
+.sidebar-header {
+  margin-bottom: 30px;
+}
+
+.username {
+    float: right !important;
+}
+
+.profile-usertitle-name {
+  color: $_BACKOFFICE_BLACK;
+}
+
+.profile-usertitle-job {
+  color: $_BACKOFFICE_GRAY;
+}
+
+.profile-pic-form {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.profile-usermenu ul li a {
+  color: $_BACKOFFICE_BLACK;
+  &:hover, &:focus{
+    color: $_BACKOFFICE_BLUE
+  }
+}
+
+.profile-usermenu ul li.active a {
+  color: $_BACKOFFICE_BLUE;
+  background-color: $_BACKOFFICE_LIGHT_BLUE;
+  border-left-color: $_BACKOFFICE_BLUE;
+}
+
+.checkbox-list.services {
+  label {
+    width: 50%;
+    float: left;
+  }
+}
+
+.md-checkbox-list.languages {
+  .md-checkbox {
+      width: 25%;
+      float: left;
+  }
+}
+
+.portlet.location.bordered {
+  vertical-align: middle;
+  text-align: center;
+  .card-content {
+    .form-group {
+      min-height: 75px;
+    }
+  }
+}
+
+.portlet.location.bordered.inactive {
+  border: 1px dashed #ddd !important;
+  background: transparent;
+  h4, p {
+    color: #ddd;
+  }
+}
+
+.location-header {
+  background: #efefef;
+  /*color: #fff;*/
+  padding: 0 30px 2px 30px;
+  margin: 7px 0 20px 0;
+}
+
+.textarea_noresize {
+  resize: none;
+}
+
+.textarea_resize_vertical {
+  resize: vertical;
+}
+
+/* --------- Manufacturer Media --------- */
+
+.editable-textarea {
+  min-width: 300px !important;
+  min-height: 100px !important;
+  resize: none;
+}
+
+a.editable-multiline {
+  display: inline-block !important;
+  vertical-align: top;
+}

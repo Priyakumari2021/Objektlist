@@ -1,0 +1,111 @@
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+
+  .page-logo {
+    padding: 16px;
+  }
+
+  .login .content .forget-password {
+    float: left;
+  }
+
+  .login {
+    .tabbable-line {
+      .nav-pills {
+        li {
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .checkbox-list.services {
+    label {
+      width: 100%;
+      float: none;;
+    }
+  }
+
+  .checkbox-list.languages,
+  .checkbox-list.memberships {
+    label {
+      width: 50% !important;
+    }
+  }
+
+  .note.note-info, .note.note-warning, .note.note-danger {
+    margin-top: 10px;
+  }
+
+  .alert.alert-danger, .alert.alert-success {
+    margin-top: 10px;
+  }
+
+  .page-head .page-title,
+  .page-head .page-toolbar {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .page-head>.container, 
+  .page-content {
+    padding: 15px;
+  }
+
+  #searchForm {
+    .form-control {
+      margin-bottom: 12px;
+    }
+    .btn-right {
+      width: 100%;
+    }
+  }
+
+  .page-head .page-toolbar,
+  .modal-dialog .modal-footer,
+  .bottom-actions, .bottom-buttons {
+    a, button {
+      display: block;
+      margin-bottom: 12px;
+      width: 100%;
+    }
+  }
+
+  .sidebar-header .round-pic,
+  .profile-sidebar .round-pic {
+    display: none;
+  }
+
+  .estate-pay .profile-sidebar {
+    display: none;
+  }
+
+  .page-footer .container {
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {
+
+  .note.note-info, .note.note-warning, .note.note-danger {
+    margin-top: 10px;
+  }
+
+  .alert.alert-danger, .alert.alert-success {
+    margin-top: 10px;
+  }
+
+  ul.wysihtml5-toolbar a.btn.default:not(.btn-outline) {
+    padding: 5px 5px;
+  }
+  .checkbox-list > label{
+    width: 100% !important;
+  }
+}

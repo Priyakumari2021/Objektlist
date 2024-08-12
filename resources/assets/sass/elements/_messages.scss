@@ -1,0 +1,34 @@
+
+.note, .alert {
+  box-shadow: 0 2px 3px 2px $_BACKOFFICE_SHADOW !important;
+  -o-border-radius: $_BACKOFFICE_RADIUS;
+  -webkit-border-radius: $_BACKOFFICE_RADIUS;
+  -moz-border-radius: $_BACKOFFICE_RADIUS;
+  border-radius: $_BACKOFFICE_RADIUS;
+}
+
+.alert-danger {
+  background-color: $_BACKOFFICE_LIGHT_RED;
+  border: 0px;
+  border-left: 5px solid $_BACKOFFICE_RED;
+  color: $_BACKOFFICE_BLACK;
+}
+
+.alert-success {
+  background-color: $_BACKOFFICE_LIGHT_GREEN;
+  border: 0px;
+  border-left: 5px solid $_BACKOFFICE_GREEN;
+  color: $_BACKOFFICE_BLACK;
+}
+
+.note.note-warning {
+  background-color: #fff;
+  border-color: $_BACKOFFICE_PRIMARY;
+  color: $_BACKOFFICE_BLACK;
+}
+
+.note.note-info {
+  background-color: #fff;
+  border-color: $_BACKOFFICE_BLUE;
+  color: $_BACKOFFICE_BLACK;
+}

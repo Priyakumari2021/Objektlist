@@ -1,0 +1,192 @@
+.form-control {
+  color: $_BACKOFFICE_BLACK;
+  border: 0px;
+  border: 1px solid $_GRAY_200;
+  border-radius: $_BACKOFFICE_RADIUS;
+  padding-left: 20px;
+  height: 56px;
+  font-size: $_BACKOFFICE_FONT_REGULAR;
+  &:active, &:focus, &:hover {
+    border-bottom: 1px solid $_BACKOFFICE_PRIMARY;
+  }
+}
+
+select.form-control {
+  height: 56px;
+}
+
+.control-label {
+  color: $_BACKOFFICE_BLACK;
+  padding-left: 0;
+  font-weight: 300 !important;
+  font-size: $_BACKOFFICE_FONT_REGULAR;
+  line-height: 40px;
+}
+
+.label-align-top {
+  line-height: normal;
+}
+
+.control-label .required, .form-group .required {
+    color: $_BACKOFFICE_BLACK;
+    font-weight: 500 !important;
+    font-size: $_BACKOFFICE_FONT_REGULAR;
+}
+/* TextArea */
+.wysihtml5.form-control.editable-wysihtml5 {
+  background-color: $_BACKOFFICE_BG !important;
+}
+.form-control.wysihtml5{
+  background-color: $_BACKOFFICE_BG !important;
+}
+
+/* Error Styles */
+
+.has-error .form-control {
+  border-color: $_BACKOFFICE_RED;
+}
+
+.has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .form-control-feedback, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label, .has-error {
+  color: $_BACKOFFICE_RED;
+  span {
+    color: $_BACKOFFICE_RED;
+  }
+}
+
+/* Success Styles */
+
+.has-success .form-control {
+  border-color: $_BACKOFFICE_GRAY;
+}
+
+.has-success .checkbox, .has-success .checkbox-inline, .has-success .control-label, .has-success .form-control-feedback, .has-success .help-block, .has-success .radio, .has-success .radio-inline, .has-success.checkbox label, .has-success.checkbox-inline label, .has-success.radio label, .has-success.radio-inline label {
+  color: $_BACKOFFICE_BLACK;
+}
+
+/* Disabled Styles */
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: $_BACKOFFICE_LIGHT_GRAY;
+    color: $_BACKOFFICE_GRAY;
+}
+
+/* Checkboxes */
+
+.checkbox-list>label {
+  font-size: $_BACKOFFICE_FONT_REGULAR;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  word-break: break-all !important;
+  -ms-word-break: break-all !important;
+  white-space: normal !important;
+  -ms-hyphens: auto !important;
+  -moz-hyphens: auto !important;
+  -webkit-hyphens: auto !important;
+  hyphens: auto !important;
+}
+
+.form-group .checkbox-list>label {
+  display: block;
+  width: 33% !important;
+  padding-right: 2%;
+}
+
+.checker {
+  width: auto !important;
+  height: auto !important;
+  margin-left: 0 !important;
+
+  &:hover {
+    background-color: $_BACKOFFICE_LIGHT_GRAY;
+  }
+  &:checked {
+    background-color: $_BACKOFFICE_BLUE;
+  }
+}
+
+.checker span input {
+  -moz-appearance: checkbox !important;
+  -webkit-appearance: checkbox !important;
+  opacity: initial !important;
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+}
+
+.checker span {
+  background-image: none !important;
+}
+
+/* Material Design Checkboxes */
+
+.md-checkbox label>.box {
+    border: 1px solid rgba(0, 0, 0, 0.38);
+    border-radius: 3px !important;
+}
+
+.md-checkbox input[type=checkbox]:checked~label>.box {
+    background-color: $_BACKOFFICE_BLUE;
+    border-radius: 3px !important;
+    opacity: 1.0;
+    border: none;
+    -webkit-transform: scale(1) rotate(-180deg);
+    -moz-transform: scale(1) rotate(-180deg);
+    transform: scale(1) rotate(-180deg);
+}
+
+.md-checkbox label>.check {
+    z-index: 6;
+    top: 1px;
+    left: 7px;
+    width: 6px;
+    height: 14px;
+    border: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+}
+
+.has-success .md-checkbox label>.check, .has-success.md-checkbox label>.check {
+  border-color: #fff;
+}
+
+.md-checkbox label>span.inc {
+  background: $_BACKOFFICE_BLUE;
+  height: 40px;
+  width: 40px;
+  left: -10px;
+  top: -10px;
+}
+
+.form-md-checkboxes>label {
+  color: $_BACKOFFICE_BLACK;
+  font-weight: 300 !important;
+  font-size: $_BACKOFFICE_FONT_REGULAR;
+}
+
+.md-checkbox label {
+  font-size: $_BACKOFFICE_FONT_REGULAR;
+  font-weight: 300 !important;
+}
+
+/* Material Design Radio Buttons */
+
+.md-radio label>.box {
+  border: 1px solid rgba(0, 0, 0, 0.38);
+}
+
+.md-radio label>.check {
+  background: $_BACKOFFICE_BLUE;
+}
+
+.md-radio label>span.inc {
+  background: $_BACKOFFICE_BLUE;
+  height: 40px;
+  width: 40px;
+  left: -10px;
+  top: -10px;
+}
+
+
+.popop {
+    background-color: red !important;
+}

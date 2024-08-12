@@ -1,0 +1,225 @@
+/* --------- Login --------- */
+
+.backstretch {
+  position: fixed ! important;
+}
+
+.login {
+
+  font-size: $_BACKOFFICE_FONT_REGULAR; 
+
+  .logo, .content, .tabbable-line {
+    margin-top: 20px;
+  }
+
+  .content h3 {
+    font-size: $_BACKOFFICE_FONT_BIG;
+    font-weight: bold !important;
+  }
+
+}
+
+/* Form Control Styles */
+
+.login .content {
+
+  .form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .login-form.form-horizontal .form-group {
+    margin-bottom: 10px;
+  }
+
+  .form-control {
+    color: $_BACKOFFICE_GRAY;
+    border: 0px;
+    border-bottom: 1px solid $_BACKOFFICE_GRAY;
+    background: $_BACKOFFICE_LIGHT_GRAY;
+    border-radius: $_BACKOFFICE_RADIUS;
+    padding-left: 34px!important;
+    height: 56px;
+    font-size: $_BACKOFFICE_FONT_REGULAR;
+    font-weight: 300 !important;
+    &:active, &:focus, &:hover {
+      outline: 0px;
+      border: 0px;
+      border-bottom: 1px solid $_BACKOFFICE_BLACK;
+      color: $_BACKOFFICE_BLACK;
+    }
+  }
+
+  .input-icon {
+    > i {
+      margin-top: 20px;
+    }
+  }
+
+  .form-md-line-input.form-md-floating-label .form-control~label {
+    font-weight: 300 !important;
+    margin-left: 5px;
+    margin-top: -2px;
+    color: $_BACKOFFICE_GRAY;
+    transition: .2s ease all;
+    &:after {
+      background: none;
+    }
+  }
+
+  .form-md-line-input.form-md-floating-label .form-control.edited, .form-md-line-input.form-md-floating-label .form-control.focus,
+  .form-md-line-input.form-md-floating-label .form-control:focus,
+  .form-md-line-input.form-md-floating-label .form-control:-webkit-autofill {
+    padding-top: 22px;
+    ~label {
+      top: 12px;
+      font-size: 14px;
+    }
+  }
+
+  .form-group.form-md-line-input.has-success {
+    .form-control {
+      border: 0px;
+      border-bottom: 1px solid $_BACKOFFICE_GRAY;
+      color: $_BACKOFFICE_BLACK;
+    }
+    label {
+      color: $_BACKOFFICE_GRAY!important;
+      &:after {
+        background: none!important;
+      }
+    }
+  }
+
+  .form-group.form-md-line-input.has-error {
+    label {
+      color: $_BACKOFFICE_GRAY!important;
+      &:after {
+        background: none!important;
+      }
+    }
+  }
+
+  .error-hint {
+    margin-top: 5px;
+    display: none;
+  }
+
+  select.form-control {
+    padding-left: 20px;
+  }
+
+}
+
+.teaser-checkers {
+  padding: 0 20px 12px 20px;
+  li {
+    margin-top: 12px;
+  }
+}
+
+/* Error and Success */
+
+.user-login-5 .form-group.has-error {
+
+  border-bottom: 0px solid transparent!important;
+
+  .form-control {
+    border-color: $_BACKOFFICE_RED;
+  }
+
+  .error-hint {
+    display: block;
+  }
+
+  a {
+    color: $_BACKOFFICE_RED !important;
+  }
+
+}
+
+.user-login-5 .alert {
+  margin-top: auto;
+}
+
+.form-md-checkboxes.has-error label {
+  color: $_BACKOFFICE_RED;
+}
+
+.form-md-checkboxes.has-success label {
+  color: $_BACKOFFICE_BLACK;
+}
+
+.login .content .create-account {
+  text-align: center;
+  background: $_BACKOFFICE_BG;
+  p {
+    font-size: $_BACKOFFICE_FONT_REGULAR;
+    a {
+      font-size: $_BACKOFFICE_FONT_REGULAR;
+      color: $_BACKOFFICE_BLUE;
+    }
+  }
+}
+
+.login .content .check,
+.login .copyright {
+  color: $_BACKOFFICE_BLACK;
+  font-weight: 300;
+}
+
+.login .content .forget-password {
+  font-size: $_BACKOFFICE_FONT_REGULAR;
+  float: none !important;
+}
+
+/* Material Design Checkboxes */
+
+.md-checkbox label>.box {
+    border: 1px solid rgba(0, 0, 0, 0.38);
+    border-radius: 3px !important;
+}
+
+.md-checkbox input[type=checkbox]:checked~label>.box {
+    background-color: $_BACKOFFICE_BLUE;
+    border-radius: 3px !important;
+    opacity: 1.0;
+    border: none;
+    -webkit-transform: scale(1) rotate(-180deg);
+    -moz-transform: scale(1) rotate(-180deg);
+    transform: scale(1) rotate(-180deg);
+}
+
+.md-checkbox label>.check {
+    z-index: 6;
+    top: 1px;
+    left: 7px;
+    width: 6px;
+    height: 14px;
+    border: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+}
+
+.has-success .md-checkbox label>.check, .has-success.md-checkbox label>.check {
+  border-color: #fff;
+}
+
+.md-checkbox label>span.inc {
+  background: $_BACKOFFICE_BLUE;
+  height: 40px;
+  width: 40px;
+  left: -10px;
+  top: -10px;
+}
+
+.form-md-checkboxes>label {
+  color: $_BACKOFFICE_BLACK;
+  font-weight: 300 !important;
+  font-size: $_BACKOFFICE_FONT_REGULAR;
+}
+
+.md-checkbox label {
+  font-size: $_BACKOFFICE_FONT_REGULAR;
+  font-weight: 300 !important;
+}

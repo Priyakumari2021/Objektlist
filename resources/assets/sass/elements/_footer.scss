@@ -1,0 +1,31 @@
+
+.page-footer {
+  background: #fff;
+  color: $_BACKOFFICE_BLACK;
+}
+
+.scroll-to-top span {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.scroll-to-top i {
+  color: #000000;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 15px;
+  background: #ffffff;
+  border: 1px solid #E0E0E0;
+  margin-bottom: 5px;
+}
+
+.fa.fa-chevron-up {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
